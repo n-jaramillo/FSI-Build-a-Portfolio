@@ -1,12 +1,44 @@
 body {
-    background-color: blanchedalmond;
+    background-color: #C8C8C8;
+    color: #6D6E80;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1.main {
+    margin: 50px auto 20px;
+    width: 200px;
 }
 
 div.main {
-    background-color: cornsilk;
-    width: 300px;
-    margin: auto;
+    background-color: #D7C3C3;
+    width: 500px;
+    margin: 10px auto 50px;
     padding: 20px 50px 30px;
-    box-sizing: border-box;
-    border-radius: 10%;
+    border-radius: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+div.main h1, h2, h3, h4, h5, h6, strong {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+p.center_text {
+    text-align: center;
+}
+
+.image {
+    border-radius: 10px;
+    filter: saturate(0.3);
+}
+
+/** Color Palette
+#6D6E80
+
+#C8C8C8
+
+#E9DCC9
+
+#EBCFBA
+
+#D7C3C3 */
