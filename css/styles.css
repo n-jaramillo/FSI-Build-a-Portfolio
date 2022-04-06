@@ -1,0 +1,12 @@
+body {
+    background-color: blanchedalmond;
+}
+
+div.main {
+    background-color: cornsilk;
+    width: 300px;
+    margin: auto;
+    padding: 20px 50px 30px;
+    box-sizing: border-box;
+    border-radius: 10%;
+}
